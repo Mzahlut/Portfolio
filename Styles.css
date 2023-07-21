@@ -1,0 +1,181 @@
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #242927;
+    z-index: 100;
+    
+}
+
+body{
+    background: #242927;
+}
+
+.principal{
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+    width: 50%;
+    height: 100vh - 100px;
+    background: #242927;
+    z-index: 1;
+}
+
+.principal h1{
+    margin-left: 40px;
+    font-size: 60px;
+    font-family:'Zilla Slab', serif;
+    color: #fff;
+}
+
+.principal h2{
+    margin-left: 40px;
+    font-size: 40px;
+    font-family:'Zilla Slab', serif;
+    color: #fff;
+}
+
+.principal p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family:'Zilla Slab', serif;
+    color: #fff;
+}
+
+
+.portfolio__logo h2{
+    font-family: 'Zilla Slab', serif;
+    color: #fff;
+    position: relative;
+    margin: 25px 30px;
+    font-size: 3em;
+}
+
+.nav__bar{
+    display: flex;
+    position: relative;
+    margin: auto;
+
+}
+
+
+
+
+.nav__bar li{
+    display: inline-block;
+    padding: 20px;
+    margin-right: 50px;
+
+}
+
+.nav__bar a{
+    margin-right: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Zilla Slab', serif;
+
+}
+
+.nav__bar a:hover{
+    color: #32B681;
+}
+
+.principal p > a{
+    color: #6D7672;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.principal p > a:hover{
+    color: #32B681;
+}
+
+.logos{
+    margin: auto 100px;
+    padding: 20px;
+    font-size: 50px;
+    width: 100%;
+    color: #32B681;
+}
+
+.logos a{
+    margin-left: 25px;
+    padding: 10px;
+    color: #32B681;
+}
+
+
+.logos i:hover{
+   transform: scale(2);
+}
+
+.curriculum{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.curriculum h3{
+    margin: 40px 240px;
+    padding: 15px;
+    font-size: 2em;
+    background: #32B681;
+    color: #fff;
+    font-family: 'Zilla Slab', serif;
+    border-radius: 20px;
+    box-shadow:1px 1px 12px #32B681;
+}
+
+.curriculum :hover{
+    transform: scale(1.1);
+    cursor: default;
+
+}
+
+.aside{
+    display: flex;
+    width: 50%;
+    height: 100% -100px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 100px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.aside img{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    width: 600px;
+    position: relative;
+    padding: 0;
+}
+
+.aside p{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family:'Zilla Slab', serif;
+    color: #fff;
+}
+
+
+.aside p > a{
+    color: #6D7672;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.aside p > a:hover{
+    color: #32B681;
+}
+
